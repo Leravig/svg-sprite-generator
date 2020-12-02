@@ -18,14 +18,14 @@ npm install -g svg-sprite-generator
 Generate sprite from a directory of SVG files
 
 ```
-svg-sprite-generate -d path/to/directory/of/svg/files -o path/to/sprite.svg
+svg-sprite-generator -d path/to/directory/of/svg/files -o path/to/sprite.svg
 ```
 
 ### From a list of SVG files
 Or specify SVG files to generate from. File paths can be separated with a comma.
 
 ```
-svg-sprite-generate -l path/to/file1.svg,path/to/file2.svg -o path/to/sprite.svg
+svg-sprite-generator -l path/to/file1.svg,path/to/file2.svg -o path/to/sprite.svg
 ```
 
 ### From a CSV file
@@ -38,7 +38,7 @@ duo-bicycle, test/svg/duo-bicycle.svg
 The command
 
 ```
-svg-sprite-generate -c path/to/csv.csv -o path/to/sprite.svg
+svg-sprite-generator -c path/to/csv.csv -o path/to/sprite.svg
 ```
 
 ### From another sprite file
@@ -46,7 +46,7 @@ svg-sprite-generate -c path/to/csv.csv -o path/to/sprite.svg
 You can take another sprite file and generate a new one with some modification too.
 
 ```
-svg-sprite-generate -s path/to/sprite.svg -l path/to/extra.svg,path/to/another-extra-one.svg -o new-sprite.svg
+svg-sprite-generator -s path/to/sprite.svg -l path/to/extra.svg,path/to/another-extra-one.svg -o new-sprite.svg
 ```
 ### About
 
